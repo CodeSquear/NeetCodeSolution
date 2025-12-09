@@ -10,6 +10,13 @@ using NeetCodeSolution.BigOnotation.Array_Hashing_Benchmark_;
 );*/
 
 // Solution/ArrayHashing/Problem2/IsAnagram
-BenchmarkRunner.Run<Solution0002Benchmark>(
+/*BenchmarkRunner.Run<Solution0002Benchmark>(
+    DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
+);*/
+
+
+// Solution/ArrayHashing/Problem3/TwoSum
+BenchmarkRunner.Run<Solution0003Benchmark>(
     DefaultConfig.Instance.WithOptions(ConfigOptions.DisableOptimizationsValidator)
 );
+
