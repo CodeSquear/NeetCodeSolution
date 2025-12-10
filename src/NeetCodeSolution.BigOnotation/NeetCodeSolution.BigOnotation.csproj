@@ -14,4 +14,8 @@
     <ProjectReference Include="..\NeetCodeSolution.ProblemSolution\NeetCodeSolution.ProblemSolution.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Stack\" />
+  </ItemGroup>
+
 </Project>
