@@ -4,6 +4,8 @@ public class Solution0001
 {
     public bool IsValid(string s)
     {
+        var list = new List<int>();
+        list.Reverse();
         while (s.Contains("()") || s.Contains("[]") || s.Contains("{}"))
         {
             s = s.Replace("()", "").Replace("[]", "").Replace("{}", "");
