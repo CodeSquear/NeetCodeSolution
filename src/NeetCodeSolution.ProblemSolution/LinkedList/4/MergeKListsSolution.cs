@@ -1,4 +1,7 @@
-﻿namespace NeetCodeSolution.ProblemSolution.LinkedList._4;
+﻿using System.Collections.Generic;
+using System.Linq;
+
+namespace NeetCodeSolution.ProblemSolution.LinkedList._4;
 
 public class MergeKListsSolution
 {
